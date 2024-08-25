@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "785319785548",
+    "firebase_url": "https://al-hamdan-automotive-default-rtdb.firebaseio.com",
+    "project_id": "al-hamdan-automotive",
+    "storage_bucket": "al-hamdan-automotive.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:785319785548:android:8b3328e690e8157ce6b0e9",
+        "android_client_info": {
+          "package_name": "com.example.automotiveapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "785319785548-ev2tnsedunt689u9qjguibt951t1fdkn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.automotiveapp",
+            "certificate_hash": "38080afff31202004477705281d7ec344e5ba0c7"
+          }
+        },
+        {
+          "client_id": "785319785548-janl93k60daabfnsuh552e8jah0gboaa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW-M4gN_LBrhBmCYofglex7r5wGw14Kyc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "785319785548-janl93k60daabfnsuh552e8jah0gboaa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

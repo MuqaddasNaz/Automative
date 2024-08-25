@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Main.ListingsActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:title="Listings"
+        app:navigationIcon="@drawable/ic_arrow_back_ios"
+        app:titleTextColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:cardCornerRadius="16dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:text="@string/Model_Mak"
+                android:textColor="#B1AFAF"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/splash_bg"
+                android:text="@string/Search"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="30dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="20dp"
+                app:layout_constraintBottom_toTopOf="@+id/cardView2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView5"
+                app:srcCompat="@drawable/ic_touch"
+                app:tint="#000000" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_filter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BDA0A0"
+        android:text="@string/Filter"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView2" />
+
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar">
+
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_carsForRent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:ignore="MissingConstraints"
+                tools:listitem="@layout/car_rent_row" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <ScrollView
+        android:id="@+id/expandable_menu1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/white"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/scrollView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_filter"
+        tools:ignore="UnknownId">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="24dp"
+                android:layout_marginTop="8dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_edittext_password"
+                    android:elevation="-1dp"
+                    android:minHeight="45dp"
+                    android:orientation="horizontal">
+
+                    <Spinner
+                        android:id="@+id/sp_property_purpose"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:textColor="?android:textColorPrimary"
+                        android:layout_marginStart="6dp"
+                        android:entries="@array/spinner_property_title_items"
+                        android:minHeight="45dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_edittext_password"
+                    android:elevation="-1dp"
+                    android:layout_marginTop="16dp"
+                    android:minHeight="45dp"
+                    android:orientation="horizontal">
+
+                    <Spinner
+                        android:id="@+id/sp_property_type"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="6dp"
+                        android:textColor="?android:textColorPrimary"
+                        android:entries="@array/spinner_select_property_type_items"
+                        android:minHeight="45dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="24dp"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_edittext_password"
+                    android:elevation="-1dp"
+                    android:minHeight="45dp"
+                    android:orientation="horizontal">
+
+                    <Spinner
+                        android:id="@+id/sp_property_city"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="6dp"
+                        android:textColor="?android:textColorPrimary"
+                        android:entries="@array/spinner_cities_items"
+                        android:minHeight="45dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/bg_edittext_password"
+                    android:elevation="-1dp"
+                    android:minHeight="45dp"
+                    android:orientation="horizontal">
+
+                    <Spinner
+                        android:id="@+id/sp_area_size"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="6dp"
+                        android:textColor="?android:textColorPrimary"
+                        android:entries="@array/spinner_area_size"
+                        android:minHeight="45dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/price"
+                android:paddingStart="16dp"
+                android:textColor="?android:textColorPrimary"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/et_total_price"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:hint="@string/Enter_amount"
+                android:paddingStart="16dp"
+                android:inputType="numberDecimal"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:text="@string/Price_Range_From"
+                android:textColor="?android:textColorPrimary" />
+
+
+            <SeekBar
+                android:id="@+id/seekBar"
+                style="@style/Widget.AppCompat.SeekBar.Discrete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginBottom="16dp"
+                android:max="10"
+                android:progress="3" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="24dp"
+                android:layout_marginTop="18dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_edittext_password"
+                    android:elevation="-1dp"
+                    android:minHeight="45dp"
+                    android:orientation="horizontal">
+
+                    <Spinner
+                        android:id="@+id/sp_bed_rooms"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="6dp"
+                        android:textColor="?android:textColorPrimary"
+                        android:entries="@array/spinner_bedrooms_items"
+                        android:minHeight="45dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_edittext_password"
+                    android:elevation="-1dp"
+                    android:layout_marginTop="16dp"
+                    android:minHeight="45dp"
+                    android:orientation="horizontal">
+
+                    <Spinner
+                        android:id="@+id/sp_bathrooms"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="6dp"
+                        android:textColor="?android:textColorPrimary"
+                        android:entries="@array/spinner_bathrooms_items"
+                        android:minHeight="45dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/FEATURES"
+                android:textColor="?android:textColorPrimary" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/checkBox2"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ABS" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox3"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Air_Bags" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox4"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Air_Conditioning" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox5"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Alloy_Rims" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox6"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/AM_FM_Radio" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox7"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Cassette_player" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox8"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/CD_Player" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox9"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Climate_Control" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox10"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Cool_Box" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox11"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Cruise_Control" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox12"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/DVD_Player" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox13"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Front_Camera" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox14"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Heated_Seats" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox15"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Immobilizer_Key" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox17"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Keyless_Entry" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox18"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Navigation_System" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox19"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Power_Locks" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox20"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Power_Mirrors" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox21"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Power_Steering" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox22"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Power_Windows" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox23"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Rear_AC_Vents" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox24"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Rear_Camera" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox25"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Rear_Seat_Entertainment" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox26"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Rear_Speakers" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox27"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Steering_Switches" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox28"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:text="@string/Sun_Roof" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:text="@string/USB_and_Auxiliary_Cable" />
+
+                </LinearLayout>
+            </ScrollView>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/buttonSearch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginEnd="24dp"
+                android:background="#03A9F4"
+                android:text="@string/Filter"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

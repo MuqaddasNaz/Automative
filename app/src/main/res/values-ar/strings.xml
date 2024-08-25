@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btn_english">الإنجليزية</string>
+    <string name="btn_urdu">اردو</string>
+    <string name="btn_arabic">العربية</string>
+    <string name="app_name">اسم التطبيق</string>
+    <string name="profile">الملف الشخصي</string>
+    <string name="change_language">تغيير اللغة</string>
+    <string name="settings">الإعدادات</string>
+    <string name="contact_us">اتصل بنا</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="add_listing">إضافة قائمة</string>
+    <string name="top_brands_we_work_with">أهم العلامات التجارية التي نعمل معها</string>
+    <string name="our_services">خدماتنا</string>
+    <string name="home">الصفحة الرئيسية</string>
+    <string name="listings">القوائم</string>
+    <string name="chauffeur_service">خدمة السائق</string>
+    <string name="sign_out">تسجيل الخروج</string>
+    <string name="al_hamdan_automotive">الحمدان للسيارات</string>
+    <string name="new_car_title">2024 Audi A5 جديدة</string>
+    <string name="model_year">سنة الطراز</string>
+    <string name="exterior_colour">لون الخارجية</string>
+    <string name="model">الطراز</string>
+    <string name="condition">الحالة</string>
+    <string name="price">السعر</string>
+    <string name="mazda">مازدا</string>
+    <string name="brand_lamborghini">لامبورغيني</string>
+    <string name="brand_aston_martin">أستون مارتن</string>
+    <string name="brand_ferrari">فيراري</string>
+    <string name="brand_maserati">مازيراتي</string>
+    <string name="brand_mercedes_benz">مرسيدس بنز</string>
+    <string name="brand_ford">فورد</string>
+    <string name="brand_bugatti">بوغاتي</string>
+    <string name="brand_mclaren">مكلارين</string>
+    <string name="brand_rolls_royce">رولز رويس</string>
+    <string name="brand_bmw">بي ام دبليو</string>
+    <string name="brand_nissan">نيسان</string>
+    <string name="brand_lexus">لكزس</string>
+    <string name="buy_a_car">شراء سيارة</string>
+    <string name="rent_a_car">استئجار سيارة</string>
+    <string name="preferences">تفضيلات</string>
+    <string name="welcome_back">مرحبًا بعودتك!</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="password">كلمة المرور</string>
+    <string name="First_Name">الاسم الأول</string>
+    <string name="Last_Name">الاسم الأخير</string>
+    <string name="Phone">الهاتف</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="Conform_Password">تأكيد كلمة المرور</string>
+    <string name="repairs_insurance_detailing_and_much_more">إصلاحات، تأمين، تفصيل وأكثر من ذلك بكثير</string>
+    <string name="car_service_and_oil_change">خدمة السيارة وتغيير الزيت</string>
+    <string name="register">تسجيل</string>
+    <string name="Already_have_an_account">هل لديك حساب بالفعل؟</string>
+    <string name="I_agree_with_terms_and_conditions">أوافق على الشروط والأحكام</string>
+    <string name="Executive_Sedan">سيدان تنفيذي</string>
+    <string name="high_quality_car_service_and_repairs">خدمة وإصلاح السيارات عالية الجودة!</string>
+    <string name="continue_with.....">تواصل مع.....</string>
+    <string name="Mercedes_E_Class_BMW_5_Series_Genesis_or_similar">مرسيدس E Class، BMW 5 Series، Genesis أو مماثل</string>
+    <string name="doorstep_car_wash">غسيل السيارات على العتبة</string>
+    <string name="Passengers">1 إلى 3 ركاب</string>
+    <string name="Suitcases">2 حقائب</string>
+    <string name="urdu_Suitcases">6 حقائب</string>
+    <string name="Select_Language">اختر اللغة</string>
+    <string name="Multi_purpose_vehicles_will_alleviate_the_stress_of_any_journey_whilst_appearing_sleek_and_confident">سيساعد المركبات ذات الأغراض المتعددة على تخفيف ضغوط أي رحلة مع الظهور بمظهر أنيق وواثق!</string>
+    <string name="urdu_Passengers">1-6 ركاب</string>
+    <string name="Premium_Sedan">سيدان فاخر</string>
+    <string name="Mercedes_V_Class_or_similar">مرسيدس V Class أو مماثل</string>
+    <string name="People_Mover">محرك ينقل الأشخاص</string>
+    <string name="Smooth_luxurious_rides_to_wherever_you_wish_your_chauffeur_to_take_you">رحلات ناعمة فاخرة إلى أي مكان ترغب في أن يأخذك سائقك!</string>
+    <string name="Audi_Q7_or_similar">أودي Q7 أو مماثل</string>
+    <string name="SUV_Sports_Utility_Vehicle">سيارة الدفع الرباعي - سيارة رياضية متعددة الاستخدامات</string>
+    <string name="Big_on_style_and_performance_we_have_some_of_the_worlds_truly_great_sedans">نحن كبيرة في الأناقة والأداء، لدينا بعض من أفضل السيدان في العالم!</string>
+    <string name="Modern_sophisticated_and_comprehensively_equipped">حديثة، متطورة ومجهزة بشكل شامل!</string>
+    <string name="comprehensive_car_care_solutions">حلول العناية الشاملة بالسيارات</string>
+    <string name="experience_a_complete_transformation_with_our_exterior_wash_interior_cleaning_engine_detailing_waxing_and_insta_ceramix_services_all_brought_right_to_your_doorstep_dont_wait_any_longer_to_restore_your_cars_shine_download_the_MySyara_App_now_and_give_your_car_the_pampering_it_deserves">استمتع بتحول كامل مع خدماتنا التي تشمل غسيل السيارات الخارجي، وتنظيف الداخلية، وتفصيل المحرك، وتلميع الشمع، وخدمات السيراميك المبتكرة التي نقدمها مباشرة إلى عتبة منزلك! لا تنتظر أكثر من ذلك لاستعادة لمعان سيارتك، قم بتنزيل تطبيق MySyara الآن وامنح سيارتك العناية التي تستحقها!</string>
+    <string name="dont_have_an_account">ليس لديك حساب؟</string>
+    <string name="login_to_your_existing_account">تسجيل الدخول إلى حسابك الحالي</string>
+    <string name="explore_a_wide_range_of_services_to_keep_your_car_in_top_condition_from_repairs_and_insurance_assistance_to_detailing_and_more_we_offer_everything_you_need_to_maintain_your_vehicles_performance_and_appearance_trust_our_experienced_team_to_provide_expert_solutions_tailored_to_your_cars_needs">استكشف مجموعة واسعة من الخدمات للحفاظ على سيارتك في أفضل حالة من الإصلاحات ومساعدة التأمين إلى التفصيل والمزيد، نقدم كل ما تحتاجه للحفاظ على أداء ومظهر سيارتك، ثق بفريقنا ذو الخبرة لتقديم حلول متخصصة مصممة خصيصًا لاحتياجات سيارتك</string>
+    <string name="revitalize_your_car_today_with_our_convenient_doorstep_car_wash">أنعش سيارتك اليوم مع غسيل السيارات على العتبة الذي يتميز بالسهولة</string>
+    <string name="experience_a_complete_transformation_with_our_exterior_wash_interior_cleaning_engine_detailing_waxing_and_insta_ceramic_services_all_brought_right_to_your_doorstep_dont_wait_any_longer_to_restore_your_cars_shine_download_the_mysyara_app_now_and_give_your_car_the_pampering_it_deserves">استمتع بتحول كامل مع خدماتنا التي تشمل غسيل السيارات الخارجي، وتنظيف الداخلية، وتفصيل المحرك، وتلميع الشمع، وخدمات السيراميك المبتكرة التي نقدمها مباشرة إلى عتبة منزلك! لا تنتظر أكثر من ذلك لاستعادة لمعان سيارتك، قم بتنزيل تطبيق ميسيارا الآن وامنح سيارتك العناية التي تستحقها</string>
+    <string name="user_name_placeholder">اسم المستخدم</string> <!-- سلسلة مثالية لاسم المستخدم -->
+    <string name="email_placeholder">البريد الإلكتروني</string> <!-- سلسلة مثالية للبريد الإلكتروني -->
+    <string name="ABS">فرامل ABS</string>
+    <string name="Air_Bags">وسائد هوائية</string>
+    <string name="Air_Conditioning">تكييف هواء</string>
+    <string name="Alloy_Rims">حلقات سبيكة</string>
+    <string name="AM_FM_Radio">راديو أم / أف أم</string>
+    <string name="Cassette_player">مشغل شريط كاسيت</string>
+    <string name="CD_Player">مشغل سي دي</string>
+    <string name="Climate_Control">تحكم مناخي</string>
+    <string name="Cool_Box">صندوق تبريد</string>
+    <string name="Cruise_Control">تحكم سرعة ثابت</string>
+    <string name="DVD_Player">مشغل دي في دي</string>
+    <string name="Front_Camera">كاميرا أمامية</string>
+    <string name="Heated_Seats">مقاعد مدفأة</string>
+    <string name="Immobilizer_Key">مفتاح مانع السرقة</string>
+    <string name="Keyless_Entry">دخول بدون مفتاح</string>
+    <string name="Navigation_System">نظام تحديد المواقع</string>
+    <string name="Power_Locks">أقفال كهربائية</string>
+    <string name="Power_Mirrors">مرايا كهربائية</string>
+    <string name="Power_Steering">توجيه كهربائي</string>
+    <string name="Power_Windows">نوافذ كهربائية</string>
+    <string name="Rear_AC_Vents">فتحات تكييف هواء خلفية</string>
+    <string name="Rear_Camera">كاميرا خلفية</string>
+    <string name="Rear_Seat_Entertainment">ترفيه في المقاعد الخلفية</string>
+    <string name="Rear_Speakers">مكبرات صوت خلفية</string>
+    <string name="Steering_Switches">مفاتيح التحكم بالدركسون</string>
+    <string name="Sun_Roof">فتحة سقف</string>
+    <string name="USB_and_Auxiliary_Cable">كبل USB ومساعد</string>
+    <string name="Enter_amount">أدخل المبلغ</string>
+    <string name="Price_Range_From">نطاق السعر: من $ 50 إلى $ 25،000</string>
+    <string name="Model_Mak">الطراز / الصانع</string>
+    <string name="Search">بحث</string>
+    <string name="Filter">تصفية</string>
+    <string name="FEATURES">المميزات</string>
+    <string name="feedback_title">تعليقات</string>
+    <string name="company_name">الحمدان للسيارات</string>
+    <string name="head_office">المقر الرئيسي:</string>
+    <string name="branch_office">مكتب الفرع:</string>
+    <string name="call_us">اتصل بنا:</string>
+    <string name="first_name">الاسم الأول*</string>
+    <string name="last_name">الاسم الأخير*</string>
+    <string name="message">رسالة*</string>
+    <string name="submit">إرسال</string>
+    <string name="Enter_your_name">أدخل اسمك</string>
+    <string name="Enter_your_last_name">أدخل اسمك الأخير</string>
+    <string name="enter_your_email">أدخل بريدك الإلكتروني</string>
+    <string name="message_type">نوع الرسالة</string>
+    <string name="Al_Tawan_Street_Rasdiya_3_Building_Sharjah_UAE">شارع التوان، الرصدية 3، مبنى شارقة، الإمارات العربية المتحدة</string>
+    <string name="Al_Hafeez_Shopping_Mall_Main_Boulevard_Gulberg_III_Lahore">مركز الحفيز للتسوق، الشارع الرئيسي، غولبرج III، لاهور</string>
+    <string name="reserved_rights">© الحمدان للسيارات - جميع الحقوق محفوظة</string>
+    <string name="contact_forms_description">صمم نماذج الاتصال الخاصة بك باستخدام عنصر العناصر المخصصة هذا و اربط الرصاص الخاص بك بنظام إدارة العلاقات مع العملاء المتكامل مع هوزيز CRM.</string>
+    <string name="Vehicle_Description">وصف المركبة</string>
+    <string name="Your_Description">وصفك</string>
+    <string name="Add_Image">إضافة صورة</string>
+    <string name="Email_Address">عنوان البريد الإلكتروني</string>
+    <string name="Enter_your_email">أدخل بريدك الإلكتروني</string>
+    <string name="Contact_Number">رقم الاتصال</string>
+    <string name="Upload">تحميل</string>
+    <string name="ASSEMBLY">التجميع</string>
+    <string name="CITY">المدينة</string>
+    <string name="TRANSMISSION">نقل الحركة</string>
+    <string name="ENGINE_CAPACITY_CC">سعة المحرك (CC)</string>
+    <string name="ENGINE_TYPE">نوع المحرك</string>
+    <string name="MAKE">صنع</string>
+    <string name="MODEL">نموذج</string>
+    <string name="VERSION_Optional">الإصدار (اختياري)</string>
+    <string name="REGION_OF_REGISTRATION">منطقة التسجيل</string>
+    <string name="EXTERIOR_COLOR">لون الخارجي</string>
+    <string name="MILEAGE_KM">المسافة المقطوعة* (كم)</string>
+    <string name="CONDITION">الحالة</string>
+    <string name="MODEL_YEAR">سنة الطراز</string>
+    <string name="VEHICLE_TITLE">عنوان المركبة</string>
+    <string name="TOTAL_PRICE">السعر الإجمالي</string>
+    <string name="eg_1800">على سبيل المثال 1800</string>
+    <string name="eg_Toyota">على سبيل المثال تويوتا</string>
+    <string name="eg_Fortuner">على سبيل المثال فورتونر</string>
+    <string name="eg2_7_V">على سبيل المثال 2.7 V</string>
+    <string name="eg_Area_City_Province">على سبيل المثال المنطقة، المدينة، المقاطعة</string>
+    <string name="eg_Silver">على سبيل المثال فضي</string>
+    <string name="eg_200000">على سبيل المثال 200000</string>
+    <string name="Vehicle_title">عنوان المركبة</string>
+    <string name="Total_price">السعر الإجمالي</string>
+    <string name="Add_Vehicle">إضافة مركبة</string>
+    <string name="Car_Repairing_Service">خدمة إصلاح السيارات</string>
+    <string name="Car_Wash_Service">خدمة غسيل السيارات</string>
+    <string name="Chauffeur_Service">خدمة السائقين</string>
+    <string name="Oil_Change_Service">خدمة تغيير الزيت</string>
+    <string name="btn_close">أغلق</string>
+    <string name="Language_and_Region">اللغة والمنطقة</string>
+    <string name="Language_Selection">اختيار اللغة</string>
+    <string name="Privacy_and_Security">الخصوصية والأمان</string>
+    <string name="Privacy_Policy">سياسة الخصوصية</string>
+    <string name="Terms_of_Service">شروط الخدمة</string>
+    <string name="Data_Security">أمان البيانات</string>
+    <string name="About">حول</string>
+    <string name="App_Version">إصدار التطبيق</string>
+    <string name="Logout">تسجيل الخروج</string>
+
+
+    <string name="Al_Hamdan_Automotive_App_Privacy_Policy">تطبيق الحمدان للسيارات - سياسة الخصوصية</string>
+
+    <string name="Al_Hamdan_Automotive_App_Terms_and_Conditions">تطبيق الحمدان للسيارات - البنود والشروط</string>
+
+    <string name="terms_and_conditions_content">
+    <![CDATA[
+        تطبيق الحمدان للسيارات - الشروط والأحكام
+
+        مرحبًا بك في تطبيق الحمدان للسيارات. قبل أن تبدأ في استخدام خدماتنا، نطلب منك قراءة وفهم الشروط والأحكام التالية. من خلال الوصول إلى التطبيق أو استخدامه، فإنك توافق على الالتزام بهذه الشروط والأحكام.\n\n
+        <b>قبول الشروط:</b> من خلال الوصول إلى تطبيق الحمدان للسيارات أو استخدامه، فإنك توافق على الالتزام بهذه الشروط والأحكام. إذا لم توافق على أي جزء من هذه الشروط، فلن تتمكن من استخدام خدماتنا.\n\n
+        استخدام الخدمات: يوفر تطبيق الحمدان للسيارات منصة للمستخدمين لاستكشاف، وتصفح، والتفاعل مع قوائم السيارات، والمعلومات، والخدمات. فإنك توافق على استخدام خدماتنا فقط لأغراض قانونية وفقًا لهذه الشروط.\n\n
+        حسابات المستخدمين: قد تتطلب بعض ميزات التطبيق إنشاء حساب مستخدم. أنت مسؤول عن الحفاظ على سرية حسابك وكلمة السر الخاصة بك وعن تقييد الوصول إلى حسابك. فإنك توافق على قبول المسؤولية عن جميع الأنشطة التي تحدث تحت حسابك.\n\n
+        سياسة الخصوصية: تهم خصوصيتك بالنسبة لنا. يرجى مراجعة سياسة الخصوصية الخاصة بنا لفهم كيفية جمعنا واستخدامنا وكشفنا للمعلومات عند استخدامك لخدماتنا.\n\n
+        محتوى المستخدم: قد يكون للمستخدمين الفرصة لتقديم، ونشر، أو عرض المحتوى على تطبيق الحمدان للسيارات. من خلال تقديم المحتوى، تمنحنا ترخيصًا غير حصري، مجاني، دائم، عالمي، ولا يمكن الإلغاء لاستخدام، وتكرار، وتعديل، وتكييف، ونشر، وترجمة، وتوزيع، وعرض مثل هذا المحتوى.\n\n
+        الملكية الفكرية: جميع المحتويات والمواد المتاحة على تطبيق الحمدان للسيارات، بما في ذلك على سبيل المثال لا الحصر النصوص، والرسومات، والشعارات، والصور، والبرمجيات، هي ملكية للحمدان للسيارات أو لمالكيها ومحمية بموجب قوانين حقوق النشر، والعلامات التجارية، والملكية الفكرية الأخرى.\n\n
+        السلوك الممنوع: توافق على عدم القيام بأي سلوك قد يعطل، أو يتدخل في، أو يضر بتشغيل تطبيق الحمدان للسيارات أو تجربة المستخدمين الأخرين. وهذا يشمل ولكن لا يقتصر على:\n
+        - تحميل أو نقل الفيروسات أو برامج الضارة أو أي كود ضار آخر.\n
+        - القيام بالوصول غير المصرح به إلى أنظمتنا أو شبكاتنا.\n
+        - محاولة جمع أو تخزين معلومات شخصية عن المستخدمين الآخرين.\n
+        - التنكر كشخص أو كيان أو تقديم بيان زائف أو تشويه عن انتمائك لشخص أو كيان.\n\n
+        التعديل والإنهاء: نحتفظ بالحق في تعديل أو تعليق أو إنهاء تطبيق الحمدان للسيارات أو أي جزء من خدماتنا في أي وقت دون إشعار مسبق. كما يمكننا أيضًا إنهاء أو تعليق وصولك إلى خدماتنا لأي سبب، بما في ذلك انتهاك هذه الشروط.\n\n
+        إخلاء المسؤولية عن الضمانات: يتم توفير تطبيق الحمدان للسيارات على أساس "كما هو" و "حسب التوافر" دون أي ضمانات من أي نوع، سواء كانت صريحة أو ضمنية. نحن لا نضمن أن خدماتنا ستكون غير متقطعة، خالية من الأخطاء، أو آمنة.\n\n
+        تحديد المسؤولية: في أي حال من الأحوال، لا يكون تطبيق الحمدان للسيارات أو شركاؤها مسؤولين عن أي أضرار غير مباشرة أو عرضية أو خاصة أو عقابية تنشأ عن استخدامك لتطبيق الحمدان للسيارات.\n\n
+        القانون الساري: يجب أن تخضع هذه الشروط والأحكام لقوانين [الاختصاص]، دون النظر إلى أحكام نزاع القوانين.\n\n
+        اتصل بنا: إذا كان لديك أي أسئلة أو استفسارات حول هذه الشروط والأحكام، يرجى الاتصال بنا على [البريد الإلكتروني أو العنوان].\n\n
+        شكرًا لاستخدامك تطبيق الحمدان للسيارات!
+    ]]>
+</string>
+
+
+    <string name="privacy_policy_content" translatable="false">
+<b>آخر تحديث: [تاريخ]</b>\n\n
+تعمل Al Hamdan Automotive ("<b>نحن</b>", "<b>نحن</b>" أو "<b>لنا</b>") على تطبيق Al Hamdan Automotive الخاص بالهواتف المحمولة ("<b>التطبيق</b>"). تقدم هذه الصفحة معلومات حول سياساتنا فيما يتعلق بجمع واستخدام وكشف البيانات الشخصية عند استخدامك للتطبيق والخيارات التي لديك المرتبطة بهذه البيانات.\n\n
+<b>جمع المعلومات واستخدامها</b>\n\nنحن ملتزمون بحماية خصوصية مستخدمينا ولا نجمع أي معلومات شخصية تمييز عنك عند استخدامك للتطبيق. قد نجمع ، مع ذلك ، بعض المعلومات غير الشخصية المعرفة تلقائيًا ، مثل نوع الجهاز الخاص بك ، ونظام التشغيل ، وعنوان IP ، وبيانات الاستخدام ، لتحليل الاتجاهات ، وإدارة الموقع ، وتتبع حركة المستخدمين حول الموقع ، وجمع معلومات تعريفية عن قاعدة مستخدمينا بأكملها.\n\n
+<b>الكوكيز</b>\n\nنحن نستخدم "<b>ملفات تعريف الارتباط</b>" لجمع المعلومات وتحسين تطبيقنا. لديك الخيار بين قبول أو رفض هذه الملفات ومعرفة متى يتم إرسال ملف تعريف ارتباط إلى جهازك. إذا اخترت رفض ملفات تعريف الارتباط الخاصة بنا ، فقد لا تتمكن من استخدام بعض أجزاء التطبيق الخاص بنا.\n\n
+<b>الروابط إلى مواقع أخرى</b>\n\nقد يحتوي تطبيقنا على روابط إلى مواقع خارجية لا تديرها نحن. يرجى ملاحظة أننا لا نملك السيطرة على محتوى وممارسات هذه المواقع ولا يمكننا قبول المسؤولية أو المسؤولية عن سياسات الخصوصية الخاصة بها.\n\n
+<b>تغييرات على سياسة الخصوصية هذه</b>\n\nقد نقوم بتحديث سياسة الخصوصية الخاصة بنا من وقت لآخر. لذا ، يُنصح بمراجعة هذه الصفحة بشكل دوري لأي تغييرات. سنقوم بإعلامك بأي تغييرات من خلال نشر السياسة الجديدة للخصوصية على هذه الصفحة.\n\n
+<b>تعتبر هذه السياسة سارية المفعول ابتداءً من [التاريخ].</b>\n\n
+<b>اتصل بنا</b>\n\nإذا كان لديك أي أسئلة أو اقتراحات حول سياسة الخصوصية لدينا ، فلا تتردد في الاتصال بنا على [البريد الإلكتروني أو العنوان].\n\n
+<b>شكرا لاستخدام تطبيق الحمدان للسيارات!</b>\n\n
+تحدد هذه السياسة الخاصة بالخصوصية التزامنا بحماية خصوصيتك وتشرح كيفية التعامل مع البيانات الشخصية التي يتم جمعها من خلال تطبيق الحمدان للسيارات. نحن ملتزمون بالحفاظ على سرية معلوماتك وضمان احترام خصوصيتك أثناء استخدام خدماتنا. لا تتردد في الاتصال بنا إذا كان لديك أي مخاوف أو استفسارات بخصوص ممارسات الخصوصية لدينا.
+</string>
+
+
+</resources>

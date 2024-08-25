@@ -1,0 +1,388 @@
+<resources>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+
+
+    <string name="default_web_client_id" translatable="false">AIzaSyClwaN3xd9Q_fACKFdHks_Y1-N_4VXSLoA</string>
+
+    <string name="btn_urdu">Urdu</string>
+    <string name="btn_arabic">Arabic</string>
+    <string name="btn_english">English</string>
+    <string name="app_name">Automotive App</string>
+    <string name="profile">پروفائل</string>
+    <string name="change_language">زبان تبدیل کریں</string>
+    <string name="settings">ترتیبات</string>
+    <string name="contact_us">ہم سے رابطہ کریں</string>
+    <string name="logout">لاگ آؤٹ</string>
+    <string name="add_listing">اشتہار شامل کریں</string>
+    <string name="top_brands_we_work_with">ہمارے ساتھ ٹاپ برانڈز</string>
+    <string name="our_services">ہماری خدمات</string>
+
+    <!-- English -->
+    <string name="home">Home</string>
+    <string name="listings">Listings</string>
+    <string name="chauffeur_service">Chauffeur Service</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="al_hamdan_automotive">Al Hamdan Automotive</string>
+
+    <!-- Urdu translations -->
+    <string name="new_car_title">نئی 2024 آڈی اے 5</string>
+    <string name="model_year">ماڈل سال</string>
+    <string name="exterior_colour">بیرونی رنگ</string>
+    <string name="model">ماڈل</string>
+    <string name="condition">حالت</string>
+    <string name="price">قیمت</string>
+    <string name="mazda">مازڈا</string>
+    <string name="brand_lamborghini">LAMBORGHINI</string>
+    <string name="brand_aston_martin">ASTON MARTIN</string>
+    <string name="brand_ferrari">FERRARI</string>
+    <string name="brand_maserati">MASERATI</string>
+    <string name="brand_mercedes_benz">MERCEDES BENZ</string>
+    <string name="brand_ford">FORD</string>
+    <string name="brand_bugatti">BUGATTI</string>
+    <string name="brand_mclaren">MCLAREN</string>
+    <string name="brand_rolls_royce">ROLLS ROYCE</string>
+    <string name="brand_bmw">BMW</string>
+    <string name="brand_nissan">NISSAN</string>
+    <string name="brand_lexus">LEXUS</string>
+    <string name="buy_a_car">Buy A Car</string>
+    <string name="rent_a_car">Buy A Car</string>
+    <string name="preferences">Preferences</string>
+    <string name="welcome_back">Welcome back!</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="First_Name">First Name</string>
+    <string name="Last_Name">Last Name</string>
+    <string name="Phone">Phone</string>
+    <string name="Already_have_an_account">Already have an account?</string>
+    <string name="I_agree_with_terms_and_conditions">I agree with terms and conditions</string>
+    <string name="Conform_Password">Conform Password</string>
+    <string name="Executive_Sedan">Executive Sedan</string>
+    <string name="Passengers">1-3_Passengers</string>
+    <string name="Suitcases">2_Suitcases</string>
+    <string name="Premium_Sedan">Premium Sedan</string>
+    <string name="People_Mover">People Mover</string>
+    <string name="urdu_Suitcases">6 Suitcases</string>
+    <string name="Select_Language">Select Language</string>
+    <string name="Multi_purpose_vehicles_will_alleviate_the_stress_of_any_journey_whilst_appearing_sleek_and_confident">Multi purpose vehicles will alleviate the stress of any journey whilst appearing sleek and confident.</string>
+    <string name="urdu_Passengers">1_6_Passengers</string>
+    <string name="Mercedes_V_Class_or_similar">Mercedes V Class or similar</string>
+    <string name="Smooth_luxurious_rides_to_wherever_you_wish_your_chauffeur_to_take_you">Smooth luxurious rides to wherever you wish your chauffeur to take you.</string>
+    <string name="Audi_Q7_or_similar">Audi-Q7 or similar</string>
+    <string name="SUV_Sports_Utility_Vehicle">SUV-Sports Utility Vehicle</string>
+    <string name="Big_on_style_and_performance_we_have_some_of_the_worlds_truly_great_sedans">Big on style and performance we have some of the worlds truly great sedans</string>
+    <string name="Modern_sophisticated_and_comprehensively_equipped">Modern sophisticated and comprehensively equipped</string>
+    <string name="Mercedes_E_Class_BMW_5_Series_Genesis_or_similar">Mercedes E Class BMW 5 Series Genesis or similar</string>
+    <string name="repairs_insurance_detailing_and_much_more">Repairs Insurance Detailing and much more</string>
+    <string name="doorstep_car_wash">Doorstep Car Wash</string>
+    <string name="comprehensive_car_care_solutions">Comprehensive Car Care Solutions</string>
+    <string name="explore_a_wide_range_of_services_to_keep_your_car_in_top_condition_from_repairs_and_insurance_assistance_to_detailing_and_more_we_offer_everything_you_need_to_maintain_your_vehicles_performance_and_appearance_trust_our_experienced_team_to_provide_expert_solutions_tailored_to_your_cars_needs">Explore a wide range of services to keep your car in top condition. From repairs and insurance assistance to detailing and more, we offer everything you need to maintain your vehicle’s performance and appearance. Trust our experienced team to provide expert solutions tailored to your car’s needs.</string>
+    <string name="experience_a_complete_transformation_with_our_exterior_wash_interior_cleaning_engine_detailing_waxing_and_insta_ceramix_services_all_brought_right_to_your_doorstep_dont_wait_any_longer_to_restore_your_cars_shine_download_the_MySyara_App_now_and_give_your_car_the_pampering_it_deserves">Experience a complete transformation with our Exterior Wash, Interior Cleaning, Engine Detailing, Waxing, and Insta Ceramix services—all brought right to your doorstep. Don’t wait any longer to restore your car’s shine! Download the MySyara App now and give your car the pampering it deserves!</string>
+    <string name="revitalize_your_car_today_with_our_convenient_doorstep_car_wash">Revitalize Your Car Today with Our Convenient Doorstep Car Wash!</string>
+    <string name="experience_a_complete_transformation_with_our_exterior_wash_interior_cleaning_engine_detailing_waxing_and_insta_ceramic_services_all_brought_right_to_your_doorstep_dont_wait_any_longer_to_restore_your_cars_shine_download_the_mysyara_app_now_and_give_your_car_the_pampering_it_deserves">Experience a complete transformation with our exterior wash, interior cleaning, engine detailing, waxing, and insta ceramic services—all brought right to your doorstep. Dont wait any longer to restore your cars shine download the MySyara App now and give your car the pampering it deserves.</string>
+    <string name="high_quality_car_service_and_repairs">high-Quality_car_service_&amp;_repairs!</string>
+    <string name="continue_with.....">Continue With.....</string>
+    <string name="dont_have_an_account">Dont have an account?</string>
+    <string name="car_service_and_oil_change">Car Service &amp; Oil Change</string>
+    <string name="login_to_your_existing_account">Login to your existing account</string>
+
+    <string name="user_name_placeholder">Username</string> <!-- Example placeholder string for username -->
+    <string name="email_placeholder">Email</string> <!-- Example placeholder string for email -->
+
+    <string name="ABS">ABS</string>
+    <string name="Air_Bags">Air Bags</string>
+    <string name="Air_Conditioning">Air Conditioning</string>
+    <string name="Alloy_Rims">Alloy Rims</string>
+    <string name="AM_FM_Radio">AM/FM Radio</string>
+    <string name="Cassette_player">Cassette player</string>
+    <string name="CD_Player">CD Player</string>
+    <string name="Climate_Control">Climate Control</string>
+    <string name="Cool_Box">Cool Box</string>
+    <string name="Cruise_Control">Cruise Control</string>
+    <string name="DVD_Player">DVD Player</string>
+    <string name="Front_Camera">Front Camera</string>
+    <string name="Heated_Seats">Heated Seats</string>
+    <string name="Immobilizer_Key">Immobilizer Key</string>
+    <string name="Keyless_Entry">Keyless Entry</string>
+    <string name="Navigation_System">Navigation System</string>
+    <string name="Power_Locks">Power Locks</string>
+    <string name="Power_Mirrors">Power Mirrors</string>
+    <string name="Power_Steering">Power Steering</string>
+    <string name="Power_Windows">Power Windows</string>
+    <string name="Rear_AC_Vents">Rear AC Vents</string>
+    <string name="Rear_Camera">Rear Camera</string>
+    <string name="Rear_Seat_Entertainment">Rear Seat Entertainment</string>
+    <string name="Rear_Speakers">Rear Speakers</string>
+    <string name="Steering_Switches">Steering Switches</string>
+    <string name="Sun_Roof">Sun Roof</string>
+    <string name="USB_and_Auxiliary_Cable">USB and Auxiliary Cable</string>
+    <string name="Enter_amount">Enter amount</string>
+    <string name="Price_Range_From">Price Range From $50 To $25,000</string>
+    <string name="Model_Mak">Model/Manufacturer</string>
+    <string name="Search">Search</string>
+    <string name="Filter">Filter</string>
+    <string name="FEATURES">FEATURES</string>
+    <!-- Toolbar Title -->
+    <string name="feedback_title">Feedback</string>
+
+    <!-- Feedback Texts -->
+    <string name="company_name">Al Hamdan Automoy</string>
+    <string name="head_office">Head Office:</string>
+    <string name="branch_office">Branch Office:</string>
+    <string name="call_us">Call Us:</string>
+    <string name="first_name">First Name*</string>
+    <string name="last_name">Last Name*</string>
+    <string name="message">Message*</string>
+    <string name="submit">Submit</string>
+    <string name="Enter_your_name">Enter your name</string>
+    <string name="Enter_your_last_name">Enter your last name</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="message_type">Message</string>
+    <string name="Al_Tawan_Street_Rasdiya_3_Building_Sharjah_UAE">Al Tawan Street, Rasdiya 3 Building, Sharjah-UAE</string>
+    <string name="Al_Hafeez_Shopping_Mall_Main_Boulevard_Gulberg_III_Lahore">Al Hafeez Shopping Mall, Main Boulevard, Gulberg III, Lahore.</string>
+    <string name="Gulf_Real_Estates">Gulf Real Estates</string>
+    <string name="reserved_rights">© Gulf Real Estates - All rights reserved</string>
+    <string name="contact_forms_description">Design your custom contact forms with this Houzez Elementor custom widget and connect your leads with the integrated Houzez CRM.</string>
+
+    <string name="Vehicle_Description">Vehicle Description</string>
+    <string name="Your_Description">Your Description</string>
+    <string name="Add_Image">Add Image</string>
+    <string name="Email_Address">Email Address</string>
+    <string name="Enter_your_email">Enter your email</string>
+    <string name="Contact_Number">Contact Number</string>
+    <string name="Upload">Upload</string>
+
+    <string name="ASSEMBLY">Assembly</string>
+    <string name="CITY">City</string>
+    <string name="TRANSMISSION">Transmission</string>
+    <string name="ENGINE_CAPACITY_CC">Engine Capacity (CC)</string>
+    <string name="ENGINE_TYPE">Engine Type</string>
+    <string name="MAKE">Make</string>
+    <string name="MODEL">Model</string>
+    <string name="VERSION_Optional">Version (Optional)</string>
+    <string name="REGION_OF_REGISTRATION">Region of Registration</string>
+    <string name="EXTERIOR_COLOR">Exterior Color</string>
+    <string name="MILEAGE_KM">Mileage* (KM)</string>
+    <string name="CONDITION">Condition</string>
+    <string name="MODEL_YEAR">Model Year</string>
+    <string name="VEHICLE_TITLE">Vehicle Title</string>
+    <string name="TOTAL_PRICE">Total Price</string>
+    <string name="eg_1800">e.g. 1800</string>
+    <string name="eg_Toyota">e.g. Toyota</string>
+    <string name="eg_Fortuner">e.g. Fortuner</string>
+    <string name="eg2_7_V">e.g. 2.7 V</string>
+    <string name="eg_Area_City_Province">e.g. Area, City, Province</string>
+    <string name="eg_Silver">e.g. Silver</string>
+    <string name="eg_200000">e.g. 200000</string>
+    <string name="Vehicle_title">Vehicle Title</string>
+    <string name="Total_price">Total Price</string>
+    <string name="Add_Vehicle">Add Vehicle</string>
+    <string name="Car_Repairing_Service">Car Repairing Service</string>
+    <string name="Car_Wash_Service">Car Wash Service</string>
+    <string name="Chauffeur_Service">Chauffeur Service</string>
+    <string name="Oil_Change_Service">Oil Change Service</string>
+    <string name="btn_close">Close</string>
+
+    <string name="Language_and_Region">Language &amp; Region</string>
+    <string name="Language_Selection">Language Selection</string>
+    <string name="Privacy_and_Security">Privacy &amp; Security</string>
+    <string name="Privacy_Policy">Privacy Policy</string>
+    <string name="Terms_of_Service">Terms of Service</string>
+    <string name="Data_Security">Data Security</string>
+    <string name="About">About</string>
+    <string name="App_Version">App Version</string>
+    <string name="Logout">Logout</string>
+
+    <string name="Al_Hamdan_Automotive_App_Privacy_Policy">Al Hamdan Automotive App - Privacy Policy</string>
+
+    <string name="Al_Hamdan_Automotive_App_Terms_and_Conditions">Al Hamdan Automotive App - Terms and Conditions</string>
+
+
+
+    <!-- Add other brand names similarly -->
+
+
+    <string-array name="phases">
+        <item>Select your account type</item>
+        <item>For Rent</item>
+        <item>For Sale</item>
+    </string-array>
+
+    <string-array name="spinner_all_type_items">
+        <item>All Types</item>
+        <item>Commercial</item>
+        <item>Residential</item>
+        <item>Test</item>
+    </string-array>
+
+    <string-array name="spinner_all_status_items">
+        <item>All Status</item>
+        <item>For Rent</item>
+        <item>For Sale</item>
+        <item>New Construction</item>
+        <item>New Listing</item>
+        <item>Resale</item>
+    </string-array>
+
+    <string-array name="spinner_city_items">
+        <item>City</item>
+        <item>Pakistan</item>
+        <item>Lahore</item>
+    </string-array>
+
+    <string-array name="spinner_area_items">
+        <item>Area</item>
+        <item>Lahore</item>
+        <item>-Allama Iqbal Town</item>
+        <item>-Bahria Town</item>
+        <item>-Data Ganj Bakhsh town</item>
+    </string-array>
+
+    <string-array name="spinner_min.price_items">
+        <item>Min.Price</item>
+        <item>Any</item>
+        <item>$1,000</item>
+        <item>$5,000</item>
+        <item>$10,000</item>
+        <item>$50,000</item>
+        <item>$100,000</item>
+        <item>$200,000</item>
+        <item>$300,000</item>
+        <item>$400,000</item>
+        <item>$500,000</item>
+        <item>$600,000</item>
+        <item>$700,000</item>
+        <item>$800,000</item>
+        <item>$900,000</item>
+    </string-array>
+
+    <string-array name="spinner_max.price_items">
+        <item>Max.Price</item>
+        <item>Any</item>
+        <item>$5,000</item>
+        <item>$10,000</item>
+        <item>$50,000</item>
+        <item>$100,000</item>
+        <item>$200,000</item>
+        <item>$300,000</item>
+        <item>$400,000</item>
+        <item>$500,000</item>
+        <item>$600,000</item>
+        <item>$700,000</item>
+        <item>$800,000</item>
+        <item>$900,000</item>
+    </string-array>
+
+    <string-array name="spinner_bedrooms_items">
+        <item>Select Engine type</item>
+        <item>CNG</item>
+        <item>Diesel</item>
+        <item>Electric</item>
+        <item>Hybrid</item>
+    </string-array>
+
+    <string-array name="spinner_bathrooms_items">
+        <item>Select transmission</item>
+        <item>Automatic</item>
+        <item>Manual</item>
+
+    </string-array>
+
+    <string-array name="spinner_property_title_items">
+        <item>Purpose</item>
+        <item>For Rent</item>
+        <item>For Sale</item>
+    </string-array>
+
+    <string-array name="spinner_select_property_type_items">
+        <item>Select Model</item>
+        <item>1940</item>
+        <item>1941</item>
+        <item>1942</item>
+        <item>1943</item>
+        <item>1944</item>
+        <item>1945</item>
+        <item>1946</item>
+        <item>1947</item>
+        <item>1948</item>
+        <item>1949</item>
+        <item>1950</item>
+        <item>1951</item>
+        <item>1952</item>
+        <item>1953</item>
+        <item>1954</item>
+        <item>1955 to 2024</item>
+        <item>2024</item>
+    </string-array>
+
+    <string-array name="spinner_cities_items">
+        <item>Select City</item>
+        <item>UAE</item>
+        <item> Abu Dhabi</item>
+        <item> Ajman</item>
+        <item> Alain</item>
+        <item> Dubai</item>
+        <item> Fujera</item>
+        <item> Ras Al Kheima</item>
+        <item> Sharjah</item>
+
+    </string-array>
+
+    <string-array name="spinner_area_size">
+        <item>Select Condition</item>
+        <item>New</item>
+        <item>Used</item>
+    </string-array>
+
+    <string-array name="spinner_assembly">
+        <item>Select Assembly</item>
+        <item>Imported</item>
+        <item>Local</item>
+    </string-array>
+
+    <string name="terms_and_conditions_content" translatable="false">
+    <![CDATA[
+        Al Hamdan Automotive App - Terms and Conditions
+
+        Welcome to the Al Hamdan Automotive App. Before you start using our services, we kindly ask you to read and understand the following terms and conditions. By accessing or using our app, you agree to be bound by these terms and conditions.\n\n
+        <b>Acceptance of Terms:</b> By accessing or using the Al Hamdan Automotive app, you agree to abide by these terms and conditions. If you do not agree with any part of these terms, you may not use our services.\n\n
+        Use of Services: The Al Hamdan Automotive app provides a platform for users to explore, browse, and interact with automotive listings, information, and services. You agree to use our services only for lawful purposes and in accordance with these terms.\n\n
+        User Accounts: Some features of the app may require you to create a user account. You are responsible for maintaining the confidentiality of your account and password and for restricting access to your account. You agree to accept responsibility for all activities that occur under your account.\n\n
+        Privacy Policy: Your privacy is important to us. Please review our Privacy Policy to understand how we collect, use, and disclose information about you when you use our services.\n\n
+        User Content: Users may have the opportunity to submit, post, or display content on the Al Hamdan Automotive app. By submitting content, you grant us a non-exclusive, royalty-free, perpetual, worldwide, and irrevocable license to use, reproduce, modify, adapt, publish, translate, distribute, and display such content.\n\n
+        Intellectual Property: All content and materials available on the Al Hamdan Automotive app, including but not limited to text, graphics, logos, images, and software, are the property of Al Hamdan Automotive or its licensors and are protected by copyright, trademark, and other intellectual property laws.\n\n
+        Prohibited Conduct: You agree not to engage in any conduct that may disrupt, interfere with, or harm the operation of the Al Hamdan Automotive app or the experience of other users. This includes but is not limited to:\n
+        - Uploading or transmitting viruses, malware, or any other malicious code.\n
+        - Engaging in unauthorized access to our systems or networks.\n
+        - Attempting to collect or store personal information about other users.\n
+        - Impersonating any person or entity or falsely stating or misrepresenting your affiliation with a person or entity.\n\n
+        Modification and Termination: We reserve the right to modify, suspend, or terminate the Al Hamdan Automotive app or any part of our services at any time without prior notice. We may also terminate or suspend your access to our services for any reason, including violation of these terms.\n\n
+        Disclaimer of Warranties: The Al Hamdan Automotive app is provided on an "as is" and "as available" basis without warranties of any kind, whether express or implied. We do not warrant that our services will be uninterrupted, error-free, or secure.\n\n
+        Limitation of Liability: In no event shall Al Hamdan Automotive or its affiliates be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or related to your use of the Al Hamdan Automotive app.\n\n
+        Governing Law: These terms and conditions shall be governed by and construed in accordance with the laws of [Jurisdiction], without regard to its conflict of law provisions.\n\n
+        Contact Us: If you have any questions or concerns about these terms and conditions, please contact us at [contact email or address].\n\n
+        Thank you for using the Al Hamdan Automotive app!
+    ]]>
+</string>
+    <string name="privacy_policy_content" translatable="false">
+<b>Last updated: [Date]</b>\n\n
+Al Hamdan Automotive ("<b>us</b>", "<b>we</b>", or "<b>our</b>") operates the Al Hamdan Automotive mobile application (the "<b>App</b>"). This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our App and the choices you have associated with that data.\n\n
+<b>Information Collection and Use</b>\n\nWe are committed to protecting the privacy of our users and do not collect any personally identifiable information about you when you use our App. We may, however, collect certain non-personally identifiable information automatically, such as your device type, operating system, IP address, and usage data, to analyze trends, administer the site, track users\' movements around the site, and gather demographic information about our user base as a whole.\n\n
+<b>Cookies</b>\n\n
+We use "<b>cookies</b>" to collect information and improve our App. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of our App.\n\n
+<b>Links to Other Sites</b>\n\n
+Our App may contain links to external sites that are not operated by us. Please be aware that we have no control over the content and practices of these sites and cannot accept responsibility or liability for their respective privacy policies.\n\n
+<b>Changes to This Privacy Policy</b>\n\n
+We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page.\n\n
+<b>This policy is effective as of [Date].</b>\n\n
+<b>Contact Us</b>\n\n
+If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at [contact email or address].\n\n
+<b>Thank you for using the Al Hamdan Automotive app!</b>\n\n
+This privacy policy outlines our commitment to protecting your privacy and explains how we handle personal data collected through the Al Hamdan Automotive app. We are dedicated to maintaining the confidentiality of your information and ensuring that your privacy is respected while using our services. Please feel free to reach out to us if you have any concerns or questions regarding our privacy practices.
+</string>
+
+
+
+</resources>

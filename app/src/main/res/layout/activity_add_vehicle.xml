@@ -1,0 +1,844 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.Main.AddVehicleActivity">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg"
+        android:minHeight="?attr/actionBarSize"
+        app:navigationIcon="@drawable/ic_arrow_back_ios"
+        android:theme="?attr/actionBarTheme"
+        app:title="@string/Add_Vehicle"
+        app:titleTextColor="@color/white" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:paddingStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/VEHICLE_TITLE"
+                android:textColor="?android:textColorPrimary"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/et_title"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:hint="@string/Vehicle_title"
+                android:paddingStart="16dp"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:paddingStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/TOTAL_PRICE"
+                android:textColor="?android:textColorPrimary"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/et_price"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:hint="@string/Total_price"
+                android:paddingStart="16dp"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginEnd="16dp"
+                android:layout_weight="1"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/bg_edittext_password"
+                android:elevation="-1dp"
+                android:minHeight="45dp"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/sp_property_purpose"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:textColor="?android:textColorPrimary"
+                    android:layout_marginStart="6dp"
+                    android:entries="@array/spinner_property_title_items"
+                    android:minHeight="45dp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/MODEL_YEAR"
+                android:textColor="?android:textColorPrimary"
+                android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_edittext_password"
+                    android:elevation="-1dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:minHeight="45dp"
+                    android:orientation="horizontal">
+
+                    <Spinner
+                        android:id="@+id/sp_property_type"
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="6dp"
+                        android:textColor="?android:textColorPrimary"
+                        android:entries="@array/spinner_select_property_type_items"
+                        android:minHeight="45dp" />
+                </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/MAKE"
+                android:textColor="?android:textColorPrimary"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/et_Make"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:hint="@string/eg_Toyota"
+                android:paddingStart="16dp"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/MODEL"
+                android:textColor="?android:textColorPrimary"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/et_model"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:hint="@string/eg_Fortuner"
+                android:paddingStart="16dp"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView07"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/VERSION_Optional"
+                android:textColor="?android:textColorPrimary"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/et_version"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:hint="@string/eg2_7_V"
+                android:paddingStart="16dp"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/REGION_OF_REGISTRATION"
+                android:textColor="?android:textColorPrimary"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/et_region"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:hint="@string/eg_Area_City_Province"
+                android:paddingStart="16dp"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView06"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/EXTERIOR_COLOR"
+                android:textColor="?android:textColorPrimary"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/et_exterior"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:hint="@string/eg_Silver"
+                android:paddingStart="16dp"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/MILEAGE_KM"
+                android:textColor="?android:textColorPrimary"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/et_mileage"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:hint="@string/eg_200000"
+                android:paddingStart="16dp"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/textView05"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/CONDITION"
+                android:textColor="?android:textColorPrimary"
+                android:textSize="16sp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/bg_edittext_password"
+                android:elevation="-1dp"
+                android:minHeight="45dp"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/sp_area_size"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="6dp"
+                    android:textColor="?android:textColorPrimary"
+                    android:entries="@array/spinner_area_size"
+                    android:minHeight="45dp" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/ENGINE_TYPE"
+                android:textColor="?android:textColorPrimary"
+                android:textSize="16sp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginEnd="16dp"
+                android:layout_weight="1"
+                android:layout_marginStart="16dp"
+                android:background="@drawable/bg_edittext_password"
+                android:elevation="-1dp"
+                android:minHeight="45dp"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/sp_bed_rooms"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="6dp"
+                    android:textColor="?android:textColorPrimary"
+                    android:entries="@array/spinner_bedrooms_items"
+                    android:minHeight="45dp" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/textView04"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/ENGINE_CAPACITY_CC"
+                android:textColor="?android:textColorPrimary"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/et_engine_capacity"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:hint="@string/eg_1800"
+                android:paddingStart="16dp"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/TRANSMISSION"
+                android:textColor="?android:textColorPrimary"
+                android:textSize="16sp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_edittext_password"
+                android:elevation="-1dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:minHeight="45dp"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/sp_bathrooms"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="6dp"
+                    android:textColor="?android:textColorPrimary"
+                    android:entries="@array/spinner_bathrooms_items"
+                    android:minHeight="45dp" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/CITY"
+                android:textColor="?android:textColorPrimary"
+                android:textSize="16sp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_edittext_password"
+                android:elevation="-1dp"
+                android:minHeight="45dp"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/sp_property_city"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="6dp"
+                    android:textColor="?android:textColorPrimary"
+                    android:entries="@array/spinner_cities_items"
+                    android:minHeight="45dp" />
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/textView02"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/ASSEMBLY"
+                android:textColor="?android:textColorPrimary"
+                android:textSize="16sp" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_edittext_password"
+                android:elevation="-1dp"
+                android:minHeight="45dp"
+                android:orientation="horizontal">
+
+                <Spinner
+                    android:id="@+id/sp_assembly"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="6dp"
+                    android:textColor="?android:textColorPrimary"
+                    android:entries="@array/spinner_assembly"
+                    android:minHeight="45dp" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/FEATURES"
+                android:textColor="?android:textColorPrimary" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:orientation="vertical">
+
+
+                    <CheckBox
+                        android:id="@+id/checkBox2"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ABS" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox3"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Air_Bags" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox4"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Air_Conditioning" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox5"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Alloy_Rims" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox6"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/AM_FM_Radio" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox7"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Cassette_player" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox8"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/CD_Player" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox9"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Climate_Control" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox10"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Cool_Box" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox11"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Cruise_Control" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox12"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/DVD_Player" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox13"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Front_Camera" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox14"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Heated_Seats" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox15"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Immobilizer_Key" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox17"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Keyless_Entry" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox18"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Navigation_System" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox19"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Power_Locks" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox20"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Power_Mirrors" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox21"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Power_Steering" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox22"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Power_Windows" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox23"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Rear_AC_Vents" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox24"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Rear_Camera" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox25"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Rear_Seat_Entertainment" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox26"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Rear_Speakers" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox27"
+                        android:layout_marginStart="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/Steering_Switches" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox28"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:text="@string/Sun_Roof" />
+
+                    <CheckBox
+                        android:id="@+id/checkBox16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:text="@string/USB_and_Auxiliary_Cable" />
+                </LinearLayout>
+            </ScrollView>
+
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:paddingStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="@string/Vehicle_Description"
+                android:textColor="?android:textColorPrimary"
+                android:textSize="16sp" />
+
+
+            <EditText
+                android:id="@+id/et_description"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:hint="@string/Your_Description"
+                android:paddingStart="16dp"
+                android:textSize="16sp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cv_img"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginHorizontal="24dp"
+                android:layout_marginTop="30dp"
+                android:foreground="?attr/selectableItemBackground"
+                app:cardBackgroundColor="@color/cardColor"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="0dp"
+                app:cardMaxElevation="0dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/bg_add_image"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:id="@+id/ll_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_gravity="center"
+                            app:tint="#8A8383"
+                            android:src="@drawable/ic_image" />
+
+                        <TextView
+                            android:id="@+id/tv_add_img"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginVertical="8dp"
+                            android:text="@string/Add_Image"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/iv_img"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/profile"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <ImageView
+                android:id="@+id/iv_property"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/profile"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:drawableLeft="@drawable/ic_email"
+                android:text="@string/Email_Address"
+                android:textColor="?android:textColorPrimary"
+                android:textSize="16sp" />
+
+
+            <EditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:hint="@string/Enter_your_email"
+                android:padding="16dp"
+                android:inputType="textEmailAddress"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:drawableLeft="@drawable/ic_phone"
+                android:text="@string/Contact_Number"
+                android:textColor="?android:textColorPrimary"
+                android:textSize="16sp" />
+
+
+            <EditText
+                android:id="@+id/et_contact_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:hint="+92 "
+                android:drawableLeft="@drawable/flag_icn"
+                android:padding="16dp"
+                android:inputType="phone"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/et_contact_number_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:drawableLeft="@drawable/uae_icn1"
+                android:hint="+971 "
+                android:padding="16dp"
+                android:inputType="phone"
+                android:textSize="16sp" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnUploadProperty"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/btn_bg"
+                android:padding="8dp"
+                android:text="@string/Upload"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+    <!-- Add more EditText fields for other property details as needed -->
+
+    <!-- Display uploaded images here -->
+
+
+
+</LinearLayout>

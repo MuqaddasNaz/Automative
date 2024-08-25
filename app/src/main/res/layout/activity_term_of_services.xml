@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Main.TermOfServicesActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/privacySecurityHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Al_Hamdan_Automotive_App_Terms_and_Conditions"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:background="#21A3A3A3"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:textColor="#000000"
+                android:padding="8dp"/>
+
+            <!-- TextView to display the terms and conditions -->
+            <TextView
+                android:id="@+id/termsAndConditionsTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/terms_and_conditions_content"
+                android:textColor="#000000"
+                android:padding="8dp"/>
+
+            <!-- Add buttons or checkboxes for user interactions -->
+            <!-- Add a hyperlink to the Privacy Policy if needed -->
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

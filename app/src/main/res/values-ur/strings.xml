@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btn_english">انگریزی</string>
+    <string name="btn_urdu">اردو</string>
+    <string name="btn_arabic">عربی</string>
+    <string name="app_name">ایپ نام</string>
+    <string name="profile">پروفائل</string>
+    <string name="change_language">زبان تبدیل کریں</string>
+    <string name="settings">ترتیبات</string>
+    <string name="contact_us">ہم سے رابطہ کریں</string>
+    <string name="logout">لاگ آؤٹ</string>
+    <string name="add_listing">اشتہار شامل کریں</string>
+    <string name="top_brands_we_work_with">ہمارے ساتھ ٹاپ برانڈز</string>
+    <string name="our_services">ہماری خدمات</string>
+
+    <!-- Urdu -->
+    <string name="home">گھر</string>
+    <string name="listings">فہرستیں</string>
+    <string name="chauffeur_service">چافر سروس</string>
+    <string name="sign_out">باہر نکلیں</string>
+    <string name="al_hamdan_automotive">الحمدان آٹو موٹو</string>
+    <!-- Urdu translations -->
+    <string name="new_car_title">نئی 2024 آڈی اے 5</string>
+    <string name="model_year">ماڈل سال</string>
+    <string name="exterior_colour">بیرونی رنگ</string>
+    <string name="model">ماڈل</string>
+    <string name="condition">حالت</string>
+    <string name="price">قیمت</string>
+    <string name="mazda">مازڈا</string>
+    <string name="brand_lamborghini">لمبرگینی</string>
+    <string name="brand_aston_martin">آسٹن مارٹن</string>
+    <string name="brand_ferrari">فیراری</string>
+    <string name="brand_maserati">میزراتی</string>
+    <string name="brand_mercedes_benz">مرسیڈیز بینز</string>
+    <string name="brand_ford">فورڈ</string>
+    <string name="brand_bugatti">بگٹی</string>
+    <string name="brand_mclaren">مکلارین</string>
+    <string name="brand_rolls_royce">رولز رویس</string>
+    <string name="brand_bmw">بی ایم ڈبلیو</string>
+    <string name="brand_nissan">نیسان</string>
+    <string name="brand_lexus">لیکسس</string>
+    <string name="buy_a_car">کار خریدیں</string>
+    <string name="rent_a_car">کار کرایہ کریں</string>
+    <string name="preferences">ترجیحات</string>
+    <string name="welcome_back">خوش آمدید!</string>
+    <string name="email">ای میل</string>
+    <string name="password">پاس ورڈ</string>
+    <string name="First_Name">پہلا نام</string>
+    <string name="Last_Name">آخری نام</string>
+    <string name="Phone">فون</string>
+    <string name="login">لاگ ان</string>
+    <string name="Conform_Password">تصدیقی پاسورڈ</string>
+    <string name="repairs_insurance_detailing_and_much_more">مرمت، بیمہ، ڈیٹیلنگ اور بہت کچھ</string>
+    <string name="car_service_and_oil_change">گاڑی کی سروس اور تیل کی تبدیلی</string>
+    <string name="register">رجسٹر کریں</string>
+    <string name="Already_have_an_account">پہلے ہی اکاؤنٹ ہے؟</string>
+    <string name="I_agree_with_terms_and_conditions">میں شرائط و ضوابط سے متفق ہوں</string>
+    <string name="Executive_Sedan">ایگزیکٹو سیڈان</string>
+    <string name="high_quality_car_service_and_repairs">اعلی کوالٹی کی گاڑی کی سروس اور مرمت!</string>
+    <string name="continue_with.....">جاری رکھیں</string>
+    <string name="Mercedes_E_Class_BMW_5_Series_Genesis_or_similar">مرسیڈیز ای کلاس، بی ایم ڈبلیو 5 سیریز، جینیسس یا مشابہ</string>
+    <string name="doorstep_car_wash">دروازے کی گاڑی دھلائی</string>
+    <string name="Passengers">1 سے 3 مسافرین</string>
+    <string name="Suitcases">2 سوٹکیس</string>
+    <string name="urdu_Suitcases">6 سوئٹ کیس</string>
+    <string name="Select_Language">زبان منتخب کریں</string>
+    <string name="Multi_purpose_vehicles_will_alleviate_the_stress_of_any_journey_whilst_appearing_sleek_and_confident">ملٹی پرپس مووینگ واہن مختلف سفر کی تنازعات کو دور کرے گا جبکہ وہ دلکش اور پر اعتماد نظر آئے گا۔</string>
+    <string name="urdu_Passengers">1-6 مسافروں کے لیے</string>
+    <string name="Premium_Sedan">پریمیم سیڈان</string>
+    <string name="Mercedes_V_Class_or_similar">مرسیڈیز وی کلاس یا مشابہ۔</string>
+    <string name="People_Mover">لوگوں کو ایک جگہ سے دوسری جگہ منتقل کرنے والی گاڑی</string>
+    <string name="Smooth_luxurious_rides_to_wherever_you_wish_your_chauffeur_to_take_you">جہاں چاہیں چافر کو آپ کو لے جانے کے لیے ہمیشہ کے لیے ہموار اور شاندار سواریاں۔</string>
+    <string name="Audi_Q7_or_similar">اڈی کیو 7 یا مشابہ</string>
+    <string name="SUV_Sports_Utility_Vehicle">ایس یو وی - سپورٹس یوٹلٹی گاڑی</string>
+    <string name="Big_on_style_and_performance_we_have_some_of_the_worlds_truly_great_sedans">ستائل اور کارکردگی میں بڑا، ہمارے پاس دنیا کے حقیقی بڑے سیڈان موجود ہیں۔</string>
+    <string name="Modern_sophisticated_and_comprehensively_equipped">جدید، پراگریز و جامع طور پر مجہز۔</string>
+    <string name="comprehensive_car_care_solutions">مکمل کار دیکھ بھال کے حل</string>
+    <string name="experience_a_complete_transformation_with_our_exterior_wash_interior_cleaning_engine_detailing_waxing_and_insta_ceramix_services_all_brought_right_to_your_doorstep_dont_wait_any_longer_to_restore_your_cars_shine_download_the_MySyara_App_now_and_give_your_car_the_pampering_it_deserves">ہماری بیرونی دھلائی، اندرونی صفائی، انجن کی تفصیل، ویکسنگ، اور انسٹا سیرامکس کی خدمات کے ساتھ ایک مکمل تبدیلی کا احساس کریں۔ یہ سب خدمات اب آپ کے دروازے پر لے کر آئی ہیں۔ اپنی گاڑی کی چمک کو بحال کرنے کے لئے اور دیر نہ کریں! ابھی مائیسیارا ایپ ڈاؤن لوڈ کریں اور اپنی گاڑی کو اس نعمت کی حیثیت سے نوازیں!</string>
+    <string name="dont_have_an_account">لکیا آپ کا کوئی اکاؤنٹ نہیں ہے؟</string>
+    <string name="login_to_your_existing_account">موجودہ اکاؤنٹ میں لاگ ان کریں</string>
+    <string name="explore_a_wide_range_of_services_to_keep_your_car_in_top_condition_from_repairs_and_insurance_assistance_to_detailing_and_more_we_offer_everything_you_need_to_maintain_your_vehicles_performance_and_appearance_trust_our_experienced_team_to_provide_expert_solutions_tailored_to_your_cars_needs">اپنی گاڑی کو بہتر حالت میں رکھنے کے لئے وسیع خدمات کا تلاش کریں۔ مرمت اور انشورنس کی مدد سے ہوچکے دیکھ بھال اور زیادہ تکمیل تک، ہم ہر وہ چیز فراہم کرتے ہیں جو آپ کی گاڑی کی کارکردگی اور حالت کو برقرار رکھنے کے لئے ضروری ہو۔ ہمارے تجربہ کار ٹیم پر اپنی گاڑی کی ضروریات کے مطابق ماہر حل فراہم کرنے پر اعتماد کریں۔</string>
+    <string name="revitalize_your_car_today_with_our_convenient_doorstep_car_wash">آج ہی ہمارے موزوں دروازہ پر کار دھلائی کے ساتھ اپنی گاڑی کو تازہ دم کریں!</string>
+    <string name="experience_a_complete_transformation_with_our_exterior_wash_interior_cleaning_engine_detailing_waxing_and_insta_ceramic_services_all_brought_right_to_your_doorstep_dont_wait_any_longer_to_restore_your_cars_shine_download_the_mysyara_app_now_and_give_your_car_the_pampering_it_deserves">ہماری بیرونی دھلائی، اندرونی صفائی، انجن کی تفصیلی صفائی، ویکسنگ، اور انسٹا سیرامک سروس کے ساتھ پورے تبدیلی کا تجربہ حاصل کریں، جو کہ اب آپ کے دروازے پر لے کر آئی گئی ہے۔ اپنی گاڑی کی چمک بحال کرنے کے لئے اور اس کو وہ پرورش دیں جو وہ حاصل کرتی ہے، ابھی مایسارا ایپ ڈاؤن لوڈ کریں۔</string>
+
+    <string name="user_name_placeholder">صارف کا نام</string> <!-- صارف کا نام کے لئے مثالی سٹرنگ -->
+    <string name="email_placeholder">ای میل</string> <!-- ای میل کے لئے مثالی سٹرنگ -->
+
+    <string name="ABS">ای بی ایس</string>
+    <string name="Air_Bags">ہوا بیگز</string>
+    <string name="Air_Conditioning">ہوا کنڈیشننگ</string>
+    <string name="Alloy_Rims">ایلوی رمز</string>
+    <string name="AM_FM_Radio">ای ایم / ایف ایم ریڈیو</string>
+    <string name="Cassette_player">کیسٹ پلیئر</string>
+    <string name="CD_Player">سی ڈی پلیئر</string>
+    <string name="Climate_Control">ماحولیاتی کنٹرول</string>
+    <string name="Cool_Box">کول باکس</string>
+    <string name="Cruise_Control">کروز کنٹرول</string>
+    <string name="DVD_Player">ڈی وی ڈی پلیئر</string>
+    <string name="Front_Camera">سامنے کیمرا</string>
+    <string name="Heated_Seats">گرم سیٹیں</string>
+    <string name="Immobilizer_Key">موقوفیت کلید</string>
+    <string name="Keyless_Entry">بغیر کلید کے داخلہ</string>
+    <string name="Navigation_System">نیویگیشن سسٹم</string>
+    <string name="Power_Locks">پاور لاکس</string>
+    <string name="Power_Mirrors">پاور مرائرز</string>
+    <string name="Power_Steering">پاور اسٹیرنگ</string>
+    <string name="Power_Windows">پاور ونڈوز</string>
+    <string name="Rear_AC_Vents">پیچھے اے سی وینٹس</string>
+    <string name="Rear_Camera">پیچھے کیمرا</string>
+    <string name="Rear_Seat_Entertainment">پیچھے سیٹ انٹرٹینمنٹ</string>
+    <string name="Rear_Speakers">پیچھے اسپیکرز</string>
+    <string name="Steering_Switches">اسٹیرنگ سوئچز</string>
+    <string name="Sun_Roof">سن روف</string>
+    <string name="USB_and_Auxiliary_Cable">یو ایس بی اور زائد کیبل</string>
+    <string name="Enter_amount">رقم درج کریں</string>
+    <string name="Price_Range_From">قیمت کی حد $50 سے $25,000 تک</string>
+    <string name="Model_Mak">ماڈل/مینوفیکچرر</string>
+    <string name="Search">تلاش کریں</string>
+    <string name="Filter">فلٹر کریں</string>
+    <string name="FEATURES">خصوصیات</string>
+
+
+    <string name="feedback_title">تاثرات</string>
+
+    <!-- Feedback Texts -->
+    <string name="company_name">الحمدان آٹوموائل</string>
+    <string name="head_office">ہیڈ آفس:</string>
+    <string name="branch_office">شاخ کا دفتر:</string>
+    <string name="call_us">ہمیں فون کریں:</string>
+    <string name="first_name">پہلا نام*</string>
+    <string name="last_name">آخری نام*</string>
+    <string name="message">پیغام*</string>
+    <string name="submit">جمع کرائیں</string>
+    <string name="Enter_your_name">اپنا نام درج کریں</string>
+    <string name="Enter_your_last_name">اپنے آخری نام درج کریں</string>
+    <string name="enter_your_email">اپنا ای میل درج کریں</string>
+    <string name="message_type">پیغام</string>
+    <string name="Al_Tawan_Street_Rasdiya_3_Building_Sharjah_UAE">الٹوان سٹریٹ، رصدیہ 3 بلڈنگ، شارجہ یو اے ای</string>
+    <string name="Al_Hafeez_Shopping_Mall_Main_Boulevard_Gulberg_III_Lahore">الحفیظ شاپنگ مال، مین بولیوارڈ، گلبرگ III، لاہور۔</string>
+    <string name="Gulf_Real_Estates">خلیج ریل اسٹیٹس</string>
+    <string name="reserved_rights">© الحمدان آٹوموائل - تمام حقوق محفوظ ہیں</string>
+    <string name="contact_forms_description">اپنے خصوصی رابطہ فارمز کو اس ہوزیز الیمنٹور کسٹم ویجیٹ کے ساتھ ڈیزائن کریں اور اپنے لیڈز کو انٹیگریٹڈ ہوزیز سی آر ایم کے ساتھ منسلک کریں۔</string>
+
+    <string name="Vehicle_Description">گاڑی کی تفصیلات</string>
+    <string name="Your_Description">آپ کی تفصیلات</string>
+    <string name="Add_Image">تصویر شامل کریں</string>
+    <string name="Email_Address">ای میل ایڈریس</string>
+    <string name="Enter_your_email">اپنا ای میل درج کریں</string>
+    <string name="Contact_Number">رابطہ نمبر</string>
+    <string name="Upload">اپ لوڈ</string>
+
+    <string name="ASSEMBLY">ایسمبلی</string>
+    <string name="CITY">شہر</string>
+    <string name="TRANSMISSION">ٹرانسمیشن</string>
+    <string name="ENGINE_CAPACITY_CC">انجن کی کپیسٹی (CC)</string>
+    <string name="ENGINE_TYPE">انجن کی قسم</string>
+    <string name="MAKE">میک</string>
+    <string name="MODEL">ماڈل</string>
+    <string name="VERSION_Optional">ورژن (اختیاری)</string>
+    <string name="REGION_OF_REGISTRATION">ریجن آف رجسٹریشن</string>
+    <string name="EXTERIOR_COLOR">بیرونی رنگ</string>
+    <string name="MILEAGE_KM">میلیج* (کلومیٹر)</string>
+    <string name="CONDITION">شرائط</string>
+    <string name="MODEL_YEAR">ماڈل کا سال</string>
+    <string name="VEHICLE_TITLE">گاڑی کا عنوان</string>
+    <string name="TOTAL_PRICE">کل قیمت</string>
+    <string name="eg_1800">مثال: 1800</string>
+    <string name="eg_Toyota">مثال: ٹویوٹا</string>
+    <string name="eg_Fortuner">مثال: فورٹونر</string>
+    <string name="eg2_7_V">مثال: 2.7 وی</string>
+    <string name="eg_Area_City_Province">مثال: علاقہ، شہر، صوبہ</string>
+    <string name="eg_Silver">مثال: سلور</string>
+    <string name="eg_200000">مثال: 200000</string>
+    <string name="Vehicle_title">گاڑی کا عنوان</string>
+    <string name="Total_price">کل قیمت</string>
+    <string name="Add_Vehicle">گاڑی شامل کریں</string>
+    <string name="Car_Repairing_Service"> گاڑی مرمت کی سروس</string>
+    <string name="Car_Wash_Service"> گاڑی دھونے کی سروس</string>
+    <string name="Chauffeur_Service">چافیور سروس</string>
+    <string name="Oil_Change_Service">تیل کی تبدیلی کی خدمت</string>
+    <string name="btn_close">بند کریں</string>
+
+    <string name="Language_and_Region">زبان اور علاقہ</string>
+    <string name="Language_Selection">زبان کا انتخاب</string>
+    <string name="Privacy_and_Security">رازداری اور حفاظت</string>
+    <string name="Privacy_Policy">رازداری کی پالیسی</string>
+    <string name="Terms_of_Service">خدمات کی شرائط</string>
+    <string name="Data_Security">ڈیٹا کی حفاظت</string>
+    <string name="About">کے بارے میں</string>
+    <string name="App_Version">اپلیکیشن ورژن</string>
+    <string name="Logout">لاگ آوٹ</string>
+
+    <string name="Al_Hamdan_Automotive_App_Terms_and_Conditions">الحمدان آٹوموٹو ایپ کے شرائط اور ضوابط</string>
+
+    <string name="Al_Hamdan_Automotive_App_Privacy_Policy">الحمدان آٹوموٹو ایپ کی رازداری کی پالیسی</string>
+
+
+    <string name="terms_and_conditions_content">
+    <![CDATA[
+        الحمدان آٹوموٹو موبائل ایپ - شرائط و ضوابط
+
+        الحمدان آٹوموٹو موبائل ایپ میں خوش آمدید۔ ہم آپ سے درخواست کرتے ہیں کہ آپ ہماری خدمات کا استعمال کرنے سے پہلے مندرجہ ذیل شرائط و ضوابط کو پڑھیں اور سمجھیں۔ ہماری ایپ تک رسائی حاصل کرنے یا استعمال کرنے کے ذریعہ، آپ ان شرائط و ضوابط پر مبنی ہونے کا اتفاق کرتے ہیں۔\n\n
+        <b>شرائط کی قبولیت:</b> الحمدان آٹوموٹو موبائل ایپ تک رسائی حاصل کرنے یا استعمال کرنے کے ذریعہ، آپ ان شرائط و ضوابط پر عمل کرنے کے لئے راضی ہیں۔ اگر آپ ان شرائط کے کسی حصے سے متفق نہ ہوں تو آپ ہماری خدمات کا استعمال نہیں کر سکتے۔\n\n
+        خدمات کا استعمال: الحمدان آٹوموٹو موبائل ایپ صارفین کو خودکار لسٹنگز، معلومات اور خدمات کے ساتھ تلاش کرنے، براؤز کرنے، اور تعامل کرنے کی پلیٹ فارم فراہم کرتی ہے۔ آپ اپنی خدمات کا استعمال صرف قانونی مقاصد کے لئے اور ان شرائط کے مطابق کریں گے۔\n\n
+        صارف کی اکاؤنٹس: ایپ کے کچھ خصوصیات ممکن ہے کہ آپ کو صارف کا اکاؤنٹ بنانے کی ضرورت ہو۔ آپ اپنے اکاؤنٹ اور پاس ورڈ کی محفوظی کا ذمہ دار ہیں اور اپنے اکاؤنٹ تک رسائی کی پابندی کرنے کے لئے۔ آپ اپنے اکاؤنٹ کے تحت ہونے والی تمام انشاطوں کا ذمہ دار ہونے پر اتفاق کرتے ہیں۔\n\n
+        پرائیویسی پالیسی: آپ کی پرائیویسی ہمارے لیے اہم ہے۔ براہ کرم ہماری پرائیویسی پالیسی کا جائزہ لیں تاکہ جب آپ ہماری خدمات استعمال کرتے ہیں تو ہم آپ کی معلومات کیسے جمع کرتے، استعمال کرتے، اور ظاہر کرتے ہیں، اس کا علم ہو۔\n\n
+        صارف کنٹینٹ: صارفین کو الحمدان آٹوموٹو موبائل ایپ پر مواد جمع کرنے، پوسٹ کرنے، یا ظاہر کرنے کی مواقع ممکن ہو سکتی ہے۔ مواد جمع کرنے کے ذریعہ، آپ ہمیں ایک غیر انحصاری، بے حق رویہ، دائمی، عالمی، اور غیر قابل واپسی لائسنس فراہم کرتے ہیں کہ ایسے مواد کو استعمال، نقل، ترمیم، تراکیب، شائع کریں، ترجمہ کریں، تقسیم کریں، اور ظاہر کریں۔\n\n
+        انٹیلیکٹوئل پراپرٹی: الحمدان آٹوموٹو موبائل ایپ پر دستیاب تمام مواد اور مصنوعات، متن، گرافکس، لوگو، تصاویر، اور سافٹ ویئر، الحمدان آٹوموٹو یا اس کے موجد کارکنوں کی ملکیت ہیں اور کاپی رائٹ، ٹریڈ مارک، اور دیگر انٹیلیکٹوئل پراپرٹی کے قوانین سے محفوظ ہیں۔\n\n
+        ممنوعہ کنڈکٹ: آپ اس انتہائی رویہ میں ملوث نہیں ہونے کے لئے راضی ہوں گے جو الحمدان آٹوموٹو موبائل ایپ کے عمل کو خراب کر سکتا ہے، مزاحمت کر سکتا ہے، یا دوسرے صارفین کے تجربے کو نقصان پہنچا سکتا ہے۔ اس میں شامل ہیں لیکن اس کے محدود نہیں ہیں:\n
+        - وائرس، میل ویئر، یا کسی دوسری خراب کوڈ اپلوڈ یا منتقل کرنے۔\n
+        - ہمارے نظام یا نیٹ ورکس تک غیر اختیاری رسائی میں ملوث ہونا۔\n
+        - دوسرے صارفین کے بارے میں شخصی معلومات جمع یا ذخیرہ کرنے کی کوشش کرنا۔\n
+        - کسی شخص یا انٹیٹی کی نقل کرنا یا اس سے متعلق اپنی متعلقگی کو جعلی طریقے سے ظاہر کرنا۔\n\n
+        ترمیم اور ختم کرنا: ہم اس حق کو محفوظ رکھتے ہیں کہ الحمدان آٹوموٹو ایپ یا ہماری خدمات کا کوئی حصہ کبھی بھی پیش نظر کیے بغیر ترمیم، معطل یا ختم کیا جا سکتا ہے۔ ہم بھی آپ کی خدمات تک رسائی کو کسی بھی وجہ سے ختم یا معطل کر سکتے ہیں، شامل ہیں ان شرائط کے مخالفت کی۔\n\n
+        وارنٹیوں کا انکار: الحمدان آٹوموٹو ایپ "جیسا کہ ہے" اور "جیسے ہوتا ہے" کی بنیاد پر دی گئی ہے بغیر کسی قسم کی وارنٹی کے۔ ہم یہ نہیں وارنٹ کرتے کہ ہماری خدمات بغیر رکاوٹ، خطا سے مکمل یا محفوظ ہوں گے۔\n\n
+        ذمہ داری کی حد: کسی صورت میں الحمدان آٹوموٹو یا اس کے شراکاء کسی بھی غیر مستقیم، اتفاقی، خاص، نتیجتا، یا تعزیری نقصان کے لئے ذمہ دار نہیں ہوں گے جو الحمدان آٹوموٹو ایپ کا استعمال کرتے وقت پیدا ہوتے ہیں۔\n\n
+        حکومتی قانون: یہ شرائط و ضوابط قانون [ضلع/ملک کا نام] کے مطابق ہوں گے، بغیر کسی قانونی تنازع کے، بغیر کسی قانونی مسئلہ کے۔\n\n
+        ہم سے رابطہ کریں: اگر آپ کو ان شرائط و ضوابط کے بارے میں کوئی سوال یا تشویش ہو تو براہ کرم ہم سے رابطہ کریں [رابطہ ای میل یا پتہ]۔\n\n
+        الحمدان آٹوموٹو ایپ استعمال کرنے کا شکریہ!
+    ]]>
+</string>
+
+
+    <string name="privacy_policy_content" translatable="false">
+<b>آخری تازیکاری: [تاریخ]</b>\n\n
+الحمدان آٹوموٹو ("ہم"، "ہم"، یا "ہمارا") الحمدان آٹوموٹو موبائل ایپلیکیشن ("ایپ") کو اٹھاتا ہے۔ یہ صفحہ آپ کو ہماری پالیسیوں کے بارے میں آگاہ کرتا ہے جب آپ ہمارے ایپ کا استعمال کرتے ہیں، کیا ڈیٹا جمع، استعمال اور ظاہری ہونے والے فردی ڈیٹا کے بارے میں اور آپ کے ان کے ساتھ منسلک چوائس بتاتا ہے۔\n\n
+<b>معلومات کا جمع اور استعمال</b>\n\nہم اپنے صارفوں کی رازداری کی حفاظت کرنے کے عہد پر ہیں اور جب آپ ہمارے ایپ کا استعمال کرتے ہیں تو آپ کے بارے میں کوئی فردی پہچانی جانے والی معلومات جمع نہیں کرتے۔ ہم ممکنہ طور پر خود کار طور پر کچھ غیر فردی پہچانی جانے والی معلومات جمع کر سکتے ہیں، جیسے آپ کا آلہ، آپریٹنگ سسٹم، آئی پی پتہ، اور استعمال کی گئی ڈیٹا، ترنیوں کو تجزیہ کرنے، سائٹ کی انتظامیت کرنے، سائٹ کے ارد گرد صارفین کی حرکتوں کو نگرانی کرنے اور ہمارے صارفین کی بنیادی معلومات کے بارے میں جمعیتی معلومات جمع کرنے کے لیے۔\n\n
+<b>کوکیز</b>\n\nہم "<b>کوکیز</b>" کا استعمال معلومات جمع کرنے اور اپنے ایپ کو بہتر بنانے کے لیے کرتے ہیں۔ آپ کو یہ کوکیز قبول یا مسترد کرنے کا اختیار ہے اور جب ایک کوکیز آپ کے آلہ کو ارسال کی جاتی ہے تو آپ کو معلوم ہو جاتا ہے۔ اگر آپ ہماری کوکیز مسترد کریں تو آپ کو ایپ کے کچھ حصوں کا استعمال نہیں کرنے دیا جا سکتا۔\n\n
+<b>دیگر سائٹس کے لنکس</b>\n\nہمارے ایپ میں ہمارے ذریعہ چلائے نہیں جاتے باہری سائٹس کے لنکس شامل ہو سکتے ہیں۔ براہ کرم رکھیں کہ ہم ان سائٹس کے مواد اور امال کو کنٹرول نہیں کرتے اور ان کے متعلقہ رازداری پالیسیز کو قبول نہیں کر سکتے یا ان کے ذمہ دار ہونے یا ان کے ذمہ داری پالیسیز کے لیے جواب دہی نہیں کر سکتے۔\n\n
+<b>اس پرائیویسی پالیسی کی ترمیم</b>\n\nہم اپنی پرائیویسی پالیسی کو وقتا فوقتا اپ ڈیٹ کر سکتے ہیں۔ لہذا، آپ کو یہ پیج متعدد مرتبہ کیلئے دیکھنے کی سفارش ہے۔ ہم آپ کو کسی بھی ترمیم کی معلوم کریں گے نئی پرائیویسی پالیسی کو اس صفحہ پر پوسٹ کر کے۔\n\n
+<b>یہ پالیسی [تاریخ] کو فعال ہے۔</b>\n\n
+<b>ہم سے رابطہ کریں</b>\n\nاگر آپ کو ہماری پرائیویسی پالیسی کے بارے میں کوئی سوال یا سوال ہو، تو ہم سے رابطہ کرنے میں شرم نہ کریں [رابطہ ای میل یا پتہ]۔\n\n
+<b>الحمدان آٹوموٹو ایپ استعمال کرنے کا شکریہ!</b>\n\n
+یہ پرائیویسی پالیسی ہماری رازداری کی عہد نامہ ظاہر کرتی ہے اور بیان کرتی ہے کہ الحمدان آٹوموٹو ایپ کے ذریعہ جمع کردہ فردی ڈیٹا کا کس طرح انتظام کیا جاتا ہے۔ ہم آپ کی معلومات کی رازداری کو بحفاظت رکھنے اور اس کے استعمال کے دوران آپ کی رازداری کا احترام کرنے پر مصروف ہیں۔ براہ کرم اگر آپ کو ہماری رازداری کے عمل کا کوئی سوال یا شکایت ہو تو ہم سے رابطہ کریں۔
+</string>
+
+
+
+
+
+
+
+    <!-- Add other brand names similarly -->
+
+
+
+</resources>

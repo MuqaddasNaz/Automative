@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AutomotiveApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".Activities.Main.PrivacyPolicyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Main.TermOfServicesActivity"
+            android:exported="false" /> <!-- Your activities here -->
+        <activity
+            android:name=".Activities.Main.LanguageSelectionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Main.SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Main.CarRepairingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Main.OilChangeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Main.CarWashActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.StartUp.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.StartUp.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Main.ContactUsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Main.ChauffeurServiceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Main.ListingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Main.VehicleDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Main.VehicleCategoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.Main.AddVehicleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Activities.StartUp.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Activities.StartUp.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

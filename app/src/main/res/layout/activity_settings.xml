@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Main.SettingsActivity">
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:background="#21A3A3A3"
+                android:minHeight="40dp">
+
+
+                <!-- Language & Region -->
+                <TextView
+                    android:id="@+id/languageRegionHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Language_and_Region"
+                    android:textSize="18sp"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:padding="8dp"/>
+
+            </LinearLayout>
+
+
+
+            <TextView
+                android:id="@+id/languageSelection"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Language_Selection"
+                android:layout_marginTop="16dp"
+                android:textColor="#000000"
+                android:padding="8dp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:background="#21A3A3A3"
+                android:minHeight="40dp">
+
+                <!-- Privacy & Security -->
+                <TextView
+                    android:id="@+id/privacySecurityHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Privacy_and_Security"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:padding="8dp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/privacyPolicy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Privacy_Policy"
+                android:layout_marginTop="16dp"
+                android:textColor="#000000"
+                android:padding="8dp"/>
+
+            <TextView
+                android:id="@+id/termsOfService"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Terms_of_Service"
+                android:layout_marginTop="16dp"
+                android:textColor="#000000"
+                android:padding="8dp"/>
+
+            <TextView
+                android:id="@+id/dataSecurity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Data_Security"
+                android:textColor="#000000"
+                android:layout_marginTop="16dp"
+                android:padding="8dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:background="#21A3A3A3"
+                android:minHeight="40dp">
+                <!-- About -->
+                <TextView
+                    android:id="@+id/aboutHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/About"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:padding="8dp"/>
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/appVersion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/App_Version"
+                android:textColor="#000000"
+                android:layout_marginTop="16dp"
+                android:padding="8dp"/>
+
+
+            <!-- Logout -->
+            <TextView
+                android:id="@+id/logout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Logout"
+                android:layout_marginTop="16dp"
+                android:textColor="#000000"
+                android:padding="8dp"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
